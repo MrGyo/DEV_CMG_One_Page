@@ -1,0 +1,1017 @@
+#wrapper { /* wrapping car images en 1440px */
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1440px;
+}
+
+/* Effets généralisés sur les éléments du site */
+
+h2 {
+    color: #008ed6;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2.3em;
+}
+
+a {
+    color: white;
+}
+
+/* Header */
+
+header {
+    background: url('../images/CMG_home_01.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#top_1 {
+    padding-bottom: 5%;
+}
+
+.connect h1 {
+    color: white;
+}
+
+.connect p {
+    color: #7e7f82;
+}
+
+.cmg_logo_1 {
+    margin-top: 15%;
+}
+
+.menu li > a:hover { /* pas de solutions pour un border dashed */
+    text-decoration:none;
+    color: white;
+    border-bottom: 2px SOLID #008ed6;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 10%;
+}
+
+.connect {
+    margin-top: 20%;
+    margin-left: 37%;
+}
+
+#know_more {
+    margin-top: 20%;
+    margin-left: 37%;
+    color: white;
+    background-color: #123565;
+    border-radius: 3px;
+    border-color: #123565;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 0.8em;
+}
+
+/* Section 1 dédiée aux activités du cabinet */
+
+#firm {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#firm h2 {
+    margin-bottom: 2%;
+}
+
+#firm h3 {
+    margin-bottom: 3%;
+}
+
+.activities {
+    margin-top: 5%;
+}
+
+.activity_category {
+    margin-top: 10%;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 1.3em;
+}
+
+.activity_details {
+    color: #999999;
+}
+
+/* Section 2 dédiée aux compétences du cabinet */
+
+#skills {
+    background-color: #123565;
+    background-position: center;
+    margin: auto;
+}
+
+#skills h3, p, a, ul li {
+    color: white;
+}
+
+#skills ul li {
+    margin-top: 2%;
+}
+
+#blue_dashed_2 {
+    margin-left: -0.5%;
+}
+
+.competences {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.competences_list {
+    list-style: none;
+    margin-left: -8%;
+}
+
+.comptences_details {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#important_skill {
+    font-weight: bold;
+}
+
+#important_skill ~ ul > li {
+    list-style-type: none;
+    list-style-image: url('../images/blue_square.png');
+    margin-left: -4.5%;
+}
+
+#important_skill ~ ul {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Section 3 dédiée aux associés du cabinet */
+
+#associates {
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+#blue_dashed_3 {
+    margin-left: -1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.identity {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10%;
+    color: black;
+}
+
+.profil_pic {
+    width: 100%;
+    height: auto;
+}
+
+.staff {
+    color : #999999;
+}
+
+.about {
+    text-align: center;
+    color : #999999;
+    font-size: 0.8em;
+}
+
+.law {
+    color: #008ed6;
+    text-align: center;
+    margin-top: -10%;
+    font-size: 0.7em;
+}
+
+/* Section 4 dédiée aux demandes de devis */
+
+#estimate {
+    background: url('../images/hands_pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+#blue_dashed_4 {
+    text-align: center;
+}
+
+#estimate h3, p {
+    color: white;
+}
+
+#estimate h2 {
+    text-align: center;
+}
+
+#estimate h3 {
+    text-align: center;
+    margin-bottom: 1.5%;
+}
+
+.estimate_details {
+    margin-top: 5%;
+}
+
+/* Bandeau dédiée à l'envoi de devis */
+
+#ask_estimate {
+    background-color: #15141a;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+
+#estimate_content {
+    display: flex;
+    align-items: center;
+}
+
+#hesitate {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+#estimate_button {
+    border-radius: 3px;
+    background-color: #008ed6;
+    border-color: #008ed6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: 0.8em;
+}
+
+/* Section 5 dédiée aux news du cabinet */
+
+#news {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#blue_dashed_5 {
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.news_pic {
+    width: 100%;
+    height: auto;
+}
+
+.news_content {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    border: 1px solid #e0e0e0;
+}
+
+.news_title {
+    font-weight: bold;
+}
+
+.news_lines {
+    padding-bottom: 5%;
+    color: #999999;
+}
+
+.key_words {
+    color: #008ed6;
+}
+
+.read_button {
+    border-radius: 3px;
+    background-color: #008ed6;
+    border-color: #008ed6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: 0.8em;
+}
+
+/* Section 6 dédiée aux contacts */
+
+#contact {
+    background: url('../images/gmap_4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 19%;
+    text-align: center;
+}
+
+#contact > div > h2 {
+    margin-bottom: 2%;
+}
+
+#contact > div > h3 {
+    margin-bottom: 7%;
+}
+
+.contact_elements {
+    margin-top: 7%; 
+    color: #999999;
+}
+
+#email {
+    margin-top: 6%;
+}
+
+#subject {
+    margin-top: 6%;
+}
+
+.form_control {
+    background-color: #123565;
+}
+
+.color_form {
+    background-color: #123565;
+    margin-top: 4%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+#form_left {
+    padding-left: 5%;
+}
+
+#form_right {
+    padding-right: 5%;
+}
+
+#name  {
+    background-color: #123565;
+    border-radius: 3px;
+    border-color: #4e6182;
+    font-size: 0.8em;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+#email  {
+    background-color: #123565;
+    border-radius: 3px;
+    border-color: #4e6182;
+    font-size: 0.8em;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+#subject  {
+    background-color: #123565;
+    border-radius: 3px;
+    border-color: #4e6182;
+    font-size: 0.8em;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+#message  {
+    background-color: #123565;
+    border-radius: 3px;
+    border-color: #4e6182;
+    font-size: 0.8em;
+    padding-top: 3.7%;
+}
+
+#form_button {
+    border-radius : 3px;
+    width: 50%;
+    background-color: #008ed6;
+    border-color: #008ed6;
+    margin-top: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 0.8em;
+}
+
+/* Footer */
+
+#color_back {
+    background-color: #15141a;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+#color_back p {
+    color: #3c3b40;
+}
+
+#copyright {
+    margin-bottom: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+
+    #wrapper {
+        margin-left: auto; 
+        margin-right: auto; 
+        width: auto;
+    }
+    
+    /* Header */
+    
+    #top_1 {
+        display: none;
+    }
+    
+    #top_2 {
+        padding-bottom: 8%;
+    }
+    
+    #top_2 nav {
+        border-bottom : 2px solid #7e7f82;
+    }
+    
+    #top_2 a {
+        color: white;
+    }
+    
+    .connect_2 {
+        color: white;
+        margin: 5%;
+        padding-top: 20%;
+    }
+    
+    .connect_2 p {
+        color: #7e7f82;
+        text-align: left;
+    }
+    
+    #know_more_2 {
+        margin-left: 5%;
+        color: white;
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #123565;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 0.8em;
+    }   
+
+    /* Section 1 */
+    
+    #firm {
+        margin-top: 7%;
+    }
+    
+    .m_tablet {
+        margin-top: 5%;
+    }
+    
+    .competences_list {
+        margin-left: -8%;
+        margin-top: -2%;
+    }
+
+    #important_skill {
+        margin-top : 5%;
+    }
+    
+    #important_skill ~ ul > li {
+        margin-left: -4%;
+    }
+    
+    /* Section 3 */
+
+    .profil_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+    
+    .law {
+        margin-top: -5%;
+    }
+    
+    .about {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    /* Section 4 */
+    
+    #estimate {
+        background: url('../images/hands_pic.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 11%;
+       
+    }
+
+    #estimate_content {
+        display: flex;
+        align-items: center;
+    }
+
+    #hesitate {
+        font-size: 1.2em;
+    }
+    
+    /* Section 5 */
+    
+     .news_pic {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Section 6 */
+    
+    #contact {
+        padding-top: 5%;
+        padding-bottom: 40%;
+    }         
+    
+    .contact_elements {
+        font-size: 0.8em;
+    }
+    
+    #tab_1 {
+        display: none;
+    }
+    
+    #name_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #email_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #subject_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #message_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+    
+    #form_button_2 {
+        border-radius : 3px;
+        background-color: #008ed6;
+        border-color: #008ed6;
+        margin-top: 2%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 0.8em;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    #wrapper {
+        margin-left: auto; 
+        margin-right: auto; 
+        width: auto;
+    }
+    
+    /* Header */
+    
+    #top_1 {
+        display: none;
+    }
+    
+    #top_2 {
+        padding-bottom: 8%;
+    }
+    
+    #top_2 nav {
+        border-bottom : 2px solid #7e7f82;
+    }
+    
+    #top_2 a {
+        color: white;
+    }
+    
+    .connect_2 {
+        color: white;
+        margin: 5%;
+        padding-top: 13%;
+    }
+    
+    .connect_2 p {
+        color: #7e7f82;
+        text-align: justify;
+    }
+    
+    #know_more_2 {
+        margin-left: 5%;
+        color: white;
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #123565;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 0.8em;
+    }  
+    
+    /* Section 1 */
+
+    #firm {
+        margin-top: 7%;
+    }
+    
+    .m_tablet {
+        margin-top: 5%;
+    }
+    
+    .competences_list {
+        margin-left: -8.5%;
+        margin-top: -2%;
+    }
+
+    #important_skill {
+        margin-top : 5%;
+    }
+    
+    #important_skill ~ ul > li {
+        margin-left: -4.5%;
+    }
+
+    /* Section 3 */
+    
+    .profil_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+    
+    .law {
+        margin-top: -5%;
+    }
+    
+    .about {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    /* Section 4 */
+    
+    #estimate_content {
+        display: flex;
+        align-items: center;
+    }
+
+    #hesitate {
+        font-size: 1.2em;
+    }
+    
+    /* Section 6 */
+    
+    #tab_1 {
+        display: none;
+    }
+
+    #contact {
+        padding-bottom: 40%;
+    }         
+    
+    .contact_elements {
+        font-size: 0.8em;
+    }
+    
+    #name_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #email_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #subject_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #message_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+    
+    #form_button_2 {
+        border-radius : 3px;
+        width: 33%;
+        background-color: #008ed6;
+        border-color: #008ed6;
+        margin-top: 2%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 0.8em;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    #wrapper {
+        margin-left: auto; 
+        margin-right: auto; 
+        width: auto;
+    }
+    
+    /* Header */
+    
+    #top_2 {
+        display: none;
+    }
+    
+    .cmg_logo_1 {
+        margin-top: 50%;
+    }
+    
+    .connect {
+        margin-top: 10%;
+    }
+    
+    #know_more {
+        margin-top: 10%;
+        margin-left: 37%;
+    }
+    
+    /* Section 1 */
+    
+    #firm {
+        margin-top: 7%;
+    }
+    
+    .m_tablet {
+        margin-top: 5%;
+    }
+    
+    .competences_list {
+        margin-left: -6%;
+        margin-top: -2%;
+    }
+
+    #important_skill {
+        margin-top : 5%;
+    }
+    
+    #important_skill ~ ul > li {
+        margin-left: -3%;
+    }
+    
+    /* Section 3 */
+    
+    .profil_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+    
+    .law {
+        margin-top: -5%;
+    }
+    
+    .about {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    /* Section 4 */
+    
+    #estimate_content {
+        display: flex;
+        align-items: center;
+    }
+
+    #hesitate {
+        font-size: 1.2em;
+    }
+    
+    /* Section 6 */
+    
+    #tab_1 {
+        display: none;
+    }
+    
+    #contact {
+        padding-bottom: 30%;
+    }
+    
+    .contact_elements {
+        font-size: 0.8em;
+    }
+    
+    #name_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #email_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #subject_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #message_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+    
+    #form_button_2 {
+        border-radius : 3px;
+        width: 33%;
+        background-color: #008ed6;
+        border-color: #008ed6;
+        margin-top: 2%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 0.8em;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    #wrapper {
+        margin-left: auto; 
+        margin-right: auto; 
+        width: auto;
+    }
+    
+    
+    /* Header */
+    #top_2 {
+        display: none;
+    }
+    
+    .menu {
+        font-size: 0.9em;
+    }
+    
+    /* Section 1 */
+    
+    #firm {
+        margin-top: 5%;
+    }
+    
+    /* Section 4 */
+    
+    #hesitate {
+        font-size: 1.6em;
+    }
+    
+    /* Section 6 */
+    
+    #tab_1 {
+        display: none;
+    }
+    
+    #name_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #email_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #subject_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+
+    #message_2  {
+        background-color: #123565;
+        border-radius: 3px;
+        border-color: #4e6182;
+        font-size: 0.8em;
+    }
+    
+    #form_button_2 {
+        border-radius : 3px;
+        width: 33%;
+        background-color: #008ed6;
+        border-color: #008ed6;
+        margin-top: 2%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        font-size: 0.8em;
+    }
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+    
+   #wrapper {
+        margin-left: auto; 
+        margin-right: auto; 
+        width: auto;
+    } 
+    
+    /* Header */
+    
+    #top_2 {
+        display: none;
+    }
+    /* Section 6*/
+    
+    #tab_2 {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    
+    /* Header */
+    
+    #top_2 {
+        display: none;
+    }
+    
+    /* Section 6 */
+    
+    #tab_2 {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
