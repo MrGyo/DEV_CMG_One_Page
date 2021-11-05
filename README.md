@@ -1,2 +1,2 @@
-# DEV_CMG_Home_Page
+# DEV_CMG_One_Page
 #Frontend #Maquette #HTML #CSS #Bootstrap
