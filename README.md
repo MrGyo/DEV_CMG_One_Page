@@ -1,4 +1,4 @@
-# DEV_CMG_One_Page
+# Développement Web - Création d'une one page sur la base d'une maquette PSD
 
 ## Compétences
 
