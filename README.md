@@ -1,4 +1,4 @@
-# Développement Web - Création d'une one page sur la base d'une maquette PSD
+# Développement Web - Création d'une one page responsive sur la base d'une maquette PSD
 
 ## Compétences
 
