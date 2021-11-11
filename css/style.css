@@ -628,6 +628,8 @@ header {
     
     #top_2 nav {
         border-bottom : 2px solid #7e7f82;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     #top_2 a {
